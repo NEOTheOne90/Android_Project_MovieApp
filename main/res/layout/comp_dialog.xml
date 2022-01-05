@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="예약완료!"
+        android:textSize="40dp"
+        android:textColor="@color/teal_700"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/teal_700"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/poster"
+            android:layout_width="390dp"
+            android:layout_height="260dp" />
+
+        <TextView
+            android:id="@+id/textR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="18dp"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/teal_700"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/errorText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="영화관 위치 보기"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/btns1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="롯데시네마 서면" />
+
+        <Button
+            android:id="@+id/btns2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="롯데시네마 부산본점" />
+
+        <Button
+            android:id="@+id/btns3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CGV 서면삼정타워" />
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="메인으로 돌아가기!!" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
